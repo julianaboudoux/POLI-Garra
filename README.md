@@ -453,8 +453,8 @@ while True:
 ```
 ![pdi_banana](https://github.com/user-attachments/assets/49298a16-9648-47dd-9ba6-bc8245cee7dd)
 ![Imagem do WhatsApp de 2025-07-08 à(s) 16 06 41_01493d57](https://github.com/user-attachments/assets/5b86c897-c72e-4c98-8a79-544a605e7e53)
-![Imagem do WhatsApp de 2025-07-08 à(s) 16 12 14_7f655798](https://github.com/user-attachments/assets/e5514b0e-97ed-4ee4-97d2-6b6747a7e9fc)
 ![Imagem do WhatsApp de 2025-07-08 à(s) 16 17 55_cba3b6cb](https://github.com/user-attachments/assets/97b9a128-a1cc-4f8f-92b1-6efd5890564c)
+![Imagem do WhatsApp de 2025-07-08 à(s) 16 12 14_7f655798](https://github.com/user-attachments/assets/e5514b0e-97ed-4ee4-97d2-6b6747a7e9fc)
 
 ##Resultado
 ![Foto de Igor](https://github.com/user-attachments/assets/b840669f-4232-4c86-a9ca-af3f0448b4c4)

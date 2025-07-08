@@ -20,8 +20,48 @@ A POLI-Garra é um robô criado a fim de demonstrar a separação automática de
 
 ![WhatsApp Image 2025-07-05 at 18 47 27](https://github.com/user-attachments/assets/13d94890-0e48-4db9-969a-ca378475deeb)
 
-## 2. Fluxo do projeto
+## 2. 🔁Fluxo do projeto
+1️⃣ Detecção de Objeto
+O sensor detecta a presença de um objeto.
 
+O Arduino envia o comando "foto" via porta serial para o computador.
+
+2️⃣ Captura e Recorte da Imagem (Python)
+O Python ativa a webcam.
+
+Captura a imagem da região de interesse (ROI).
+
+Salva a imagem e a usa para detectar o tipo de lixo.
+
+3️⃣ Classificação com YOLO 
+A imagem é enviada para o modelo YOLOv8 (via Roboflow).
+
+Se algum objeto for detectado:
+
+Converte a classe YOLO para um tipo de resíduo (metal, plastico, vidro, etc.) com base em um mapeamento.
+
+Envia esse tipo para o Arduino.
+
+4️⃣ Classificação por Cor (HSV)
+ usamos biscuit para modelar alguns lixos, impossibilitando que o modelo consiga detectar a maioria.
+Então, se nada for detectado pelo YOLO:
+
+A imagem é convertida para HSV.
+
+Verifica-se a presença de faixas de cor pré-definidas.
+
+O material é detectado e é enviado para o Arduino.
+
+5️⃣ Movimentação da Garra Robótica (Arduino)
+O Arduino recebe o tipo do material.
+
+Move a garra até o centro (posição zero).
+
+Abaixa e pega o objeto.
+
+Move para a posição da lixeira correspondente.
+
+Solta o objeto e retorna para a posição inicial.
 
 ## 3. Algoritmo de Machine Learning
 

@@ -52,8 +52,8 @@ https://github.com/user-attachments/assets/d4cafcb3-beaa-4d3d-8039-004f4e5429fe
   * Envia esse tipo para o Arduino.
   
   ### 3.2 Classificação por Cor (HSV):
-  Usamos biscuit para modelar alguns lixos, impossibilitando que o modelo consiga detectar a maioria.
-  Então, se nada for detectado pelo YOLO:
+A utilização de biscuit para modelar as miniaturas impossibilitou que algumas delas fossem reconhecidas pelo modelo.
+  Nesse caso, se nada for detectado pelo YOLO:
   * A imagem é convertida para HSV.
   * Verifica-se a presença de faixas de cor pré-definidas.
   * O material é detectado e é enviado para o Arduino.
@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/d4cafcb3-beaa-4d3d-8039-004f4e5429fe
   ### 4 Movimentação da Garra:
   * O Arduino recebe o tipo do material.
   * Move a garra até o centro (posição inicial).
-  * Abaixa e pega o objeto.
+  * Se desloca e pega o objeto.
   * Move para a posição da lixeira correspondente.
   * Solta o objeto e retorna para a posição inicial.
 

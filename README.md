@@ -23,7 +23,7 @@ A POLI-Garra é um robô criado a fim de demonstrar a separação automática de
 
 
 ## 2. Simulações no Coppeliasim
-Inicialmente utilizamos o Coppeliasim para validar o protótipo, simulando os movimentos da garra e o modelo classificador.
+Inicialmente, utilizamos o Coppeliasim para validar o protótipo, simulando os movimentos da garra e o modelo classificador.
 
 https://github.com/user-attachments/assets/74c5f524-cc54-417d-bd72-2f93921bb70f
 

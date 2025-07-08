@@ -1,5 +1,5 @@
 # POLI-Garra
-
+![Garra](https://github.com/user-attachments/assets/679e970a-3752-485f-bd0b-28b5819ce4d1)
 ## 0. Introdução ao Projeto
 A POLI-Garra é um robô criado a fim de demonstrar a separação automática de lixo, utilizando técnicas de Processamento de Imagem (PDI) e Machine Learning (ML).
 
@@ -30,3 +30,4 @@ A POLI-Garra é um robô criado a fim de demonstrar a separação automática de
 
 
 ## Resultado
+

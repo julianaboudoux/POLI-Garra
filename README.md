@@ -14,13 +14,12 @@ A POLI-Garra é um robô criado a fim de demonstrar a separação automática de
   * 1 Câmera: para obter a imagem dos objetos posicionados na frente da garra.
 
   ### 1.2 Carcaça:
+  ![462840147-13d94890-0e48-4db9-969a-ca378475deeb](https://github.com/user-attachments/assets/9ffd3952-bdee-43c1-ba46-9cfa948f8357)
   Para a carcaça/corpo do robô, foi utilizado impressão 3D. Foram impressas diversas peças, que após polidas foram anexadas com parafusos.
 
   ### 1.3 Miniaturas:
   Para os testes confeccionamos algumas miniaturas representando os diferentes tipos de lixo.
-  
-![462840147-13d94890-0e48-4db9-969a-ca378475deeb](https://github.com/user-attachments/assets/9ffd3952-bdee-43c1-ba46-9cfa948f8357)
-//foto miniaturas
+  //foto miniaturas
 
 
 ## 2. Simulações no Coppeliasim
